@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS_HW</title>
+
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<div id="wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="answer z-depth-5">
+                <h4 id="answer"></h4>
+            </div>
+
+
+            <div class="input-field col s12 center-align">
+                <button id="event" onclick="setEvent();" class="btn btn-large waves-effect pink lighten-2 pulse" type="button">EVENT
+                    <i class="material-icons right">star</i>
+                </button>
+            </div>
+
+            <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="name" type="text" class="">
+                <label for="name">Name</label>
+            </div>
+            <div class="input-field col s12">
+                <i class="material-icons prefix">av_timer</i>
+                <input id="date" type="date" class="datepicker">
+                <label for="date">Date</label>
+            </div>
+            <div class="input-field col s12">
+                <i class="material-icons prefix">business</i>
+                <input id="place" type="text" class="">
+                <label for="place">Place</label>
+            </div>
+
+
+
+
+
+            <div class="input-field col s12 center-align">
+                <button id="submit" onclick="getAnswer();" class="btn btn-large waves-effect pink lighten-2" type="button">SUBMIT
+                    <i class="material-icons right">star</i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>
+<script src="js/common.js"></script>
+</body>
+</html>

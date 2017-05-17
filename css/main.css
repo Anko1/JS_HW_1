@@ -1,0 +1,42 @@
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #000;
+}
+.input-field .prefix.active{
+    color: #000;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+}
+.picker__date-display,
+.picker__weekday-display{
+    background-color: #f06292;
+    border-bottom: 1px solid white;
+}
+.picker__close, .picker__today{
+    color: #f06292;
+
+}
+.picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected{
+    color: white;
+    background-color: #f06292;
+    border-radius: 50%;
+    padding: 9px 0;
+}
+#wrapper{
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.answer{
+    margin-bottom: 100px;
+    text-align: center;
+    display: none;
+}
+.answer h4{
+    padding: 10px 0;
+}
