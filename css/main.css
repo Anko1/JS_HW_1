@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* label focus color */
 .input-field input[type=text]:focus + label {
     color: #000;
@@ -25,11 +29,15 @@
     border-radius: 50%;
     padding: 9px 0;
 }
-#wrapper{
-    height: 100vh;
+#tabs-wrapper{
+    height: 10vh;
+}
+.tab-c-wrap {
+    height: 90vh;
     display: flex;
     flex-direction:column;
     justify-content: center;
+
 }
 
 .answer{
@@ -39,4 +47,12 @@
 }
 .answer h4{
     padding: 10px 0;
+}
+
+.currency-starter{
+    padding-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
